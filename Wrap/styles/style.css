@@ -12,6 +12,12 @@
 nav a {
     text-align: center;
     color: #003049 ;
+    margin: 0;
+    padding: 0 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
     
     padding: 35px;
 }
@@ -35,15 +41,24 @@ body {
     background-color: whitesmoke;
     color: #f77f00;
     font-family: Sigmar, Pacifico, Playfair;
-    font-size: 24px;
+    font-size: 25px;
     margin: 0;
-    padding: 0;
+    padding: 0 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5rem;
 }
+.home-grid { display: block;
+    grid-column-start: 2;
+    
+}
+h1 { }
 h2 {
     margin: 0;
 }
 header {
-    color: pink;
     font-family: Sigmar, Pacifico, Playfair;
     display: grid;
     grid-template-columns: 150px auto;
@@ -126,8 +141,6 @@ footer a{
     padding-top: 5px;
     justify-self: center;
     align-self: center;
-    
-
 }
 .logo {
     width: 80%;
@@ -216,8 +229,7 @@ nav {
     grid-row: 2/3;
 }
 
-.rapids-card{
+.basics-card{
     grid-column: 8/10;
     grid-row: 2/3;
 }
-
