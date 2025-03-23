@@ -211,7 +211,7 @@ nav {
 
 
 .home-grid{
-    grid-template-columns: subgrid;
+    grid-template-columns: repeat(10, 1fr);
     font-family: Playfair, Sigmar, Pacifico ;
 }
 
